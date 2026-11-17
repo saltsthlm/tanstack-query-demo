@@ -1,0 +1,11 @@
+body { font-family: system-ui, sans-serif; margin: 0; line-height: 1.5; }
+main { max-width: 48rem; margin: 0 auto; padding: 1rem; }
+.split { display: flex; gap: 2rem; }
+.split > section { flex: 1; }
+.list { list-style: none; padding: 0; margin: 0 0 1rem; }
+.list button { background: none; border: none; padding: 0.2rem 0; cursor: pointer; font: inherit; color: inherit; text-decoration: underline; }
+.list button.active { font-weight: bold; }
+.hint { color: #777; font-size: 0.85rem; margin: 0 0 0.5rem; }
+.error { color: crimson; }
+.tools { margin-top: 2rem; border-top: 1px solid #ccc; padding-top: 1rem; display: flex; gap: 0.5rem; flex-wrap: wrap; align-items: center; }
+.tools h3 { width: 100%; margin: 0; }
